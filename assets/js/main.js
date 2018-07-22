@@ -13,7 +13,9 @@
             }, 800), setTimeout(function() {
                 return $("body").removeClass("loading")
             }, 1e3)
-        }, -1 !== navigator.appVersion.indexOf("Windows") && $("body").addClass("pcuser"), e = $("html").attr("lang"), "fr" === e ? (t = 397, "en" === navigator.language.substring(0, 2) && (window.location.href = "http://vincentgarreau.com/en")) : t = 365, $(".companies_top li, .works li > a:first-of-type").on("mouseenter mouseleave", function(n) {
+        }, -1 !== navigator.appVersion.indexOf("Windows") && $("body").addClass("pcuser"), 
+        e = $("html").attr("lang"), "fr" === e ? (t = 397, "en" === navigator.language.substring(0, 2) && 
+        (window.location.href = "https://mgusani.github.io/")) : t = 365, $(".companies_top li, .works li > a:first-of-type").on("mouseenter mouseleave", function(n) {
             return "mouseenter" === n.type ? $("body").addClass("hover") : $("body").removeClass("hover")
         }), $(window).on("load", function() {
             return window.innerWidth > 620 ? n() : $("body").removeClass("loading")

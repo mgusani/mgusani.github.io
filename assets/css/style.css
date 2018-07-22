@@ -99,7 +99,7 @@ body,html{
 }
 h1{
     background:url("../img/mayank-gusani.png") no-repeat;
-    width:230px;
+    width:260px;
     height:30px;
     text-indent:-999999px;
     margin-bottom:5px;
@@ -111,15 +111,11 @@ h2{
 }
 @media (-webkit-min-device-pixel-ratio: 1.75), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
     h1{
-        background:url("../img/vincent-garreau-2x.png") no-repeat;
+        background:url("../img/mayank-gusani.png") no-repeat;
         background-size:cover
     }
-    html[lang="fr"] h2{
-        background:url("../img/developpeur-front-end-2x.png") no-repeat;
-        background-size:397px
-    }
     html[lang="en"] h2{
-        background:url("../img/en/developpeur-front-end-2x.png") no-repeat;
+        background:url("../img/developpeur-front-end.png") no-repeat;
         background-size:365px
     }
 }
@@ -151,16 +147,6 @@ body.loading #particles-js canvas{
 body h2,body p,body ul{
     -webkit-transition:opacity .4s ease;
     transition:opacity .4s ease
-}
-.info{
-    background:url("../img/uzik.png") no-repeat;
-    max-width:500px;
-    height:68px;
-    text-indent:90px;
-    line-height:68px;
-    font-style:italic;
-    margin-top:30px;
-    margin-bottom:30px
 }
 .text{
     max-width:520px;
